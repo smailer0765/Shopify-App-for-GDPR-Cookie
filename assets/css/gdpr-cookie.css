@@ -1,0 +1,492 @@
+.gdprcookie {
+    max-width: 35em;
+}
+.gdprcookie h1, .gdprcookie  h2 {
+    color: #ee4b5a;
+    font: bold 1.5em Quicksand,sans-serif;
+    margin-bottom: 1rem;
+}
+.gdprcookie h1 {
+    font-size: 1.7em;
+    margin-bottom: 1rem;
+}
+.gdprcookie p {
+    margin-bottom: 1rem;
+    line-height: 1.75em;
+    color: #ffffff;
+}
+.gdprcookie code {
+    color: #ee4b5a;
+    font: .8em monospace;
+    background: #f7f7f7;
+    padding: .15rem .25rem;
+    border-radius: .15rem;
+    border: .05rem solid #ebebeb;
+}
+.gdprcookie {
+    position: fixed;
+    color: white;
+    font-size: .8em;
+    line-height: 1.5em;
+    right: 1.5rem;
+    bottom: 1.5rem;
+    max-width: 25em;
+    padding: 1rem;
+    background: black;
+}
+.gdprcookie h1,
+.gdprcookie h2 {
+    font-size: 1.2em;
+    margin-bottom: .5rem;
+}
+.gdprcookie h2 {
+    font-size: 1.2em;
+}
+.gdprcookie a {
+    color: inherit;
+}
+
+/* GDPR Cookie buttons */
+.gdprcookie-buttons {
+    text-align: center;
+}
+.gdprcookie-buttons button {
+    color: white;
+    font-family: inherit;
+    font-size: 1em;
+    padding: .4rem;
+    border: solid .05rem currentColor;
+    border-radius: .15rem;
+    margin: 0 .5rem;
+    background: none;
+    cursor: pointer;
+}
+.gdprcookie-buttons button:disabled {
+    color: rgba(255,255,255,.5);
+}
+
+/* GDPR Cookie types */
+.gdprcookie-types ul {
+    overflow: hidden;
+    padding: 0;
+    margin: 0 0 1rem;
+}
+.gdprcookie-types li {
+    display: block;
+    list-style: none;
+    float: left;
+    width: 50%;
+    padding: 0;
+    margin: 0;
+}
+.gdprcookie-types input[type=checkbox] {
+    margin-right: .25rem;
+}
+.modal-popup table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    max-width: 100%;
+}
+.modal-popup table > thead > tr > th, .modal-popup table > tbody > tr > th, 
+.modal-popup table > tfoot > tr > th, .modal-popup table > thead > tr > td, 
+.modal-popup table > tbody > tr > td, .modal-popup table > tfoot > tr > td {
+    padding: 11px 9px;
+}
+.modal-popup table > thead > tr > th, .modal-popup table > thead > tr > td {
+    vertical-align: bottom;
+}
+.modal-popup table th {
+    text-align: left;
+}
+
+/* amasty cookie popup */
+.amgdprcookie-bar-template.-popup {
+	display: none;
+    bottom: auto; 
+    top: 30%;
+    position: fixed;
+    max-width: unset;
+    transform: unset;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
+.amgdprcookie-bar-template.-popup .amgdprcookie-bar-container { 
+    max-width: 740px;
+    margin: 0 auto;
+}
+.amgdprcookie-bar-template.-popup .amgdprcookie-bar-container {
+    padding: 50px;
+}
+.amgdprcookie-bar-container {
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 30px 10px;
+    background: #fff;
+    box-shadow: 0 -2px 18px rgb(0 0 0 / 6%);
+}
+.amgdprcookie-bar-template.-popup button{
+	cursor: pointer
+}
+.amgdprcookie-bar-template.-popup .amgdprcookie-bar-block {
+    width: 100%;
+}
+.amgdprcookie-bar-container .amgdprcookie-policy {
+    margin-bottom: 20px;
+    max-width: 640px;
+}
+.amgdprcookie-bar-template.-popup .amgdprcookie-buttons-block {
+    display: flex;
+}
+.amgdprcookie-bar-container .amgdprcookie-buttons-block {
+    flex-direction: column;
+}
+.amgdprcookie-bar-template.-popup .amgdprcookie-buttons-block .amgdprcookie-button:not(:last-child) {
+    margin-bottom: 15px;
+}
+.amgdprcookie-buttons-block .amgdprcookie-button.-allow, .amgdprcookie-buttons-block .amgdprcookie-button.-deny, 
+.amgdprcookie-buttons-block .amgdprcookie-button.-save {
+    flex-basis: 35%;
+    background: #5384ec;
+    color: #fff;
+}
+.amgdprcookie-bar-container .amgdprcookie-buttons-block .amgdprcookie-button {
+    padding: 10px 30px;
+}
+.amgdprcookie-buttons-block .amgdprcookie-button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 3px;
+    background: #fff;
+    box-shadow: none;
+    color: #5384ec;
+    text-transform: uppercase;
+    letter-spacing: 1.35px;
+    font-weight: bold;
+    transition: opacity 0.3s ease, color 0.3s ease-out, background-color 0.3s ease-out, border 0.3s ease-out;
+}
+.modal-popup {
+    pointer-events: none;
+}
+.modal-popup {
+    z-index: 900;
+    left: 0;
+    overflow-y: auto;
+}
+.modal-slide, .modal-popup {
+    bottom: 0;
+    left: 0;
+    min-width: 0;
+    position: fixed;
+    right: 0;
+    top: 5%;
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: visibility 0s .3s, opacity .3s ease;
+    transition: visibility 0s .3s, opacity .3s ease;
+}
+article, aside, details, figcaption, figure, main, footer, header, nav, section, summary {
+    display: block;
+}
+.modal-popup._show .modal-inner-wrap {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+}
+.modal-slide._show .modal-inner-wrap, .modal-popup._show .modal-inner-wrap {
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0);
+}
+.amgdprcookie-groups-modal .modal-inner-wrap {
+    max-width: 740px;
+    border-radius: 4px;
+    box-shadow: 0 -2px 18px rgb(0 0 0 / 6%);
+}
+.modal-popup .modal-inner-wrap {
+    margin: 5rem auto;
+    width: 75%;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    box-sizing: border-box;
+    height: auto;
+    left: 0;
+    position: absolute;
+    right: 0;
+    -webkit-transform: translateY(-200%);
+    transform: translateY(-200%);
+    -webkit-transition: -webkit-transform 0.2s ease;
+    transition: transform .2s ease;
+}
+.modal-slide .modal-inner-wrap, .modal-popup .modal-inner-wrap {
+    background-color: #ffffff;
+    box-shadow: 0 0 12px 2px rgb(0 0 0 / 35%);
+    opacity: 1;
+    pointer-events: auto;
+}
+.modal-popup .modal-header {
+    padding-bottom: 1.2rem;
+    padding-top: 3rem;
+}
+.modal-popup .modal-header, .modal-popup .modal-footer {
+    -webkit-flex-grow: 0;
+    flex-grow: 0;
+    -webkit-flex-shrink: 0;
+    flex-shrink: 0;
+}
+.amgdprcookie-bar-template.-popup._show{
+	display: block;
+}
+.modal-slide._show, .modal-popup._show {
+    visibility: visible;
+    opacity: 1;
+    -webkit-transition: opacity .3s ease;
+    transition: opacity .3s ease;
+    z-index: 902;
+}
+.amgdprcookie-groups-modal .action-close {
+    display: none;
+}
+.modal-custom .action-close > span, .modal-popup .action-close > span, .modal-slide .action-close > span {
+    border: 0;
+    clip: rect(0, 0, 0, 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+.modal-popup .modal-header, .modal-popup .modal-content, .modal-popup .modal-footer {
+    padding: 3rem;
+	padding-top: 0px;
+}
+.amgdprcookie-groups-modal .amgdprcookie-form-container, .amgdprcookie-groups-modal .amgdprcookie-tbody {
+    display: block;
+    overflow-y: auto;
+    min-height: 300px;
+	max-height: 50vh;
+    overflow: auto;
+    scrollbar-color: #e0e0e0 #ffffff;
+    scrollbar-width: thin;
+    scrollbar-face-color: #e0e0e0;
+    scrollbar-highlight-color: #e0e0e0;
+    scrollbar-shadow-color: #e0e0e0;
+    scrollbar-track-color: #ffffff;
+}
+.amgdprcookie-groups-modal #modal-content-31 .amgdprcookie-form-container {
+	max-height: 80vh;
+}
+.amgdprcookie-cookie-container {
+    margin-bottom: 30px;
+    padding: 25px 0;
+}
+.amgdprcookie-cookie-container {
+    margin: 0 10px 20px 0;
+}
+.amgdprcookie-groups-modal .amgdprcookie-cookie-container, .amgdprcookie-groups-modal .amgdprcookie-header, .amgdprcookie-groups-modal .amgdprcookie-text {
+    padding: 0;
+}
+.amgdprcookie-cookie-container .amgdprcookie-header {
+    display: flex;
+    justify-content: space-between;
+}
+.amgdprcookie-cookie-container .amgdprcookie-caption {
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+.amgdprcookie-cookie-container .amgdprcookie-caption {
+    margin: 0 0 15px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 27px;
+}
+.amgdprcookie-toggle-cookie {
+    position: relative;
+    padding-left: 50px;
+}
+aside .modal-content, aside .modal-header{
+    border: none;
+}
+.amgdprcookie-main-wrapper input[type="checkbox"]:disabled {
+    opacity: 0.5;
+}
+.amgdprcookie-toggle-cookie .amgdprcookie-input {
+    visibility: hidden;
+    width: 0;
+    height: 0;
+}
+.amgdprcookie-main-wrapper input[type="checkbox"] {
+    margin: 2px 4.5px 0 0;
+    position: relative;
+    top: 2px;
+}
+.amgdprcookie-main-wrapper input:disabled {
+    cursor: default;
+    background-color: -internal-light-dark(rgba(239, 239, 239, 0.3), rgba(59, 59, 59, 0.3));
+    color: -internal-light-dark(rgb(84, 84, 84), rgb(170, 170, 170));
+    border-color: rgba(118, 118, 118, 0.3);
+}
+.amgdprcookie-toggle-cookie .amgdprcookie-input:disabled + .amgdprcookie-label {
+    background: #e8e8e8;
+}
+.amgdprcookie-toggle-cookie .amgdprcookie-input:checked:not([disabled]) + .amgdprcookie-label {
+    background: #1979c3;
+}
+.amgdprcookie-toggle-cookie .amgdprcookie-input:checked:not([disabled]) + .amgdprcookie-label:after {
+    left: 95%;
+    transform: translateX(-100%);
+}
+.amgdprcookie-toggle-cookie .amgdprcookie-label {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50px;
+    height: 29px;
+    border-radius: 40px;
+    background: #a5a5a5;
+    box-shadow: 0 2px 5px rgb(0 0 0 / 5%);
+    cursor: pointer;
+}
+.amgdprcookie-toggle-cookie .amgdprcookie-input:checked:disabled + .amgdprcookie-label:after {
+    left: 95%;
+    transform: translateX(-100%);
+}
+.amgdprcookie-toggle-cookie .amgdprcookie-label:after {
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: 25px;
+    height: 25px;
+    border-radius: 40px;
+    background: #fff;
+    content: '';
+    transition: all .4s ease;
+}
+.amgdprcookie-cookie-container .amgdprcookie-options {
+    display: inline-block;
+    background: inherit;
+    font-size: 14px;
+}
+.amgdprcookie-cookie-container .amgdprcookie-options {
+    font-size: 12px;
+    color: #5384ec;
+    cursor: pointer;
+}
+.amgdprcookie-buttons-block.-settings {
+    /*padding-bottom: 30px;*/
+}
+.amgdprcookie-buttons-block {
+    display: flex;
+    flex-direction: column;
+}
+.amgdprcookie-groups-modal .amgdprcookie-done {
+    width: 100%;
+    border-radius: 3px;
+    background-color: #5384ec;
+    box-shadow: none;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1.35px;
+    font-weight: bold;
+    transition: background-color 0.3s ease-out;
+}
+aside button {
+    background-image: none;
+    background: #eeeeee;
+    border: 1px solid #cccccc;
+    color: #777777;
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    margin: 0;
+    padding: 7px 15px;
+    line-height: 1.5rem;
+    box-sizing: border-box;
+    vertical-align: middle;
+}
+aside.modal-popup .modal-header{
+    padding: 1rem;
+}
+#add_overlay_setting{
+    z-index: 901;
+}
+#add_overlay_table{
+    z-index: 902;
+}
+.amgdprcookie-groups-modal.-table .modal-inner-wrap {
+    overflow-x: auto;
+    min-width: 700px;
+    max-width: 1290px;
+	max-height: 750px;
+}
+.modal-popup .modal-title {
+    border-bottom: 1px solid #c1c1c1;
+    font-weight: 300;
+    padding-bottom: 9px;
+    font-size: 26px;
+    margin-bottom: 0;
+    min-height: 1em;
+    word-wrap: break-word;
+}
+.amgdprcookie-groups-modal .modal-title {
+    border-bottom: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+.amgdprcookie-groups-modal .amgdprcookie-table .amgdprcookie-row, .amgdprcookie-groups-modal .amgdprcookie-table thead tr, .amgdprcookie-groups-modal .amgdprcookie-table thead {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+}
+.amgdprcookie-groups-modal .amgdprcookie-cell.-name {
+    word-wrap: break-word;
+}
+.modals-overlay {
+    background-color: rgba(51, 51, 51, 0.55);
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 99;
+}
+.amgdprcookie-groups-modal p{
+	margin: 0;
+}
+.modals-overlay{
+	display: block !important;
+}
+.amgdprcookie-cell.-lifetime{
+	text-align: center;
+}
+
+
+
+
+
+
+@media (min-width: 768px){
+    .amgdprcookie-bar-container .amgdprcookie-buttons-block {
+        display: block;
+    }
+    .amgdprcookie-table .amgdprcookie-cell, .amgdprcookie-table .amgdprcookie-title {
+        width: 15%;
+    }
+    .amgdprcookie-table .amgdprcookie-cell.desc, .amgdprcookie-table .amgdprcookie-title.-wide {
+        width: 30%;
+    }
+}
+
+
+@media (max-width: 479px) {
+    .amgdprcookie-bar-template.-popup {
+        top: 25%;
+    }
+}
